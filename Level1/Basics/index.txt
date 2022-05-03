@@ -1,0 +1,33 @@
+1. Basics
+    Getting started 
+        input
+        output
+        data types and variables
+        loops
+        conditions
+
+    Patterns
+    Number system
+    Arrays and Functions
+    2d Arrays
+    String
+    StringBuilder
+    ArrayList
+
+2. Recursion
+
+3. Time and space complexity
+
+4. Dynamic programming
+
+5. Basic DS
+    Stack
+    Queue
+    linkedList
+    Generic tree
+    Binary tree
+    Binary search tree
+
+6. Advance DS
+    Hashmap and heap
+    Graphs
