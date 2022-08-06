@@ -197,10 +197,10 @@ public class BinaryTree {
 
         ArrayList<Integer> al = new ArrayList<>();
         if (node.left != null) {
-            al = nodeToRootPath(node.left, data);
+            al = nodeToRootPath1(node.left, data);
         }
         if (node.right != null) {
-            al = nodeToRootPath(node.right, data);
+            al = nodeToRootPath1(node.right, data);
         }
 
         if (al.size() > 0) {
@@ -507,10 +507,10 @@ public class BinaryTree {
            mybst.lgbst = node.data;
            mybst.lgbstsize = lbst.lgbstsize + rbst.lgbstsize + 1;
         }else if(lbst.lgbstsize >= rbst.lgbstsize){
-            mybst.lgbst = node.left.data;
+            mybst.lgbst = lbst.lgbst;
             mybst.lgbstsize = lbst.lgbstsize;
         }else{
-            mybst.lgbst = node.right.data;
+            mybst.lgbst = rbst.lgbst;
             mybst.lgbstsize = rbst.lgbstsize;
         }
     

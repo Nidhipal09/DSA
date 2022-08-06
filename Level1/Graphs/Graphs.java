@@ -271,6 +271,39 @@ public class Graphs {
 
 
 
+//   by dfs
+   
+//   for(int v = 0; v<vtces; v++){
+//     if (!visited[v]) {
+//         if(dfs(v, -1, graph, visited)){
+//            System.out.println(true);
+//            return; 
+//         } 
+//     } 
+//  }
+ 
+//  System.out.println(false);
+
+
+
+//  public static boolean dfs(int src, int parent, ArrayList<Edge>[] graph, boolean[] visited) {
+
+//   if (visited[src]==true)
+//     return true;
+
+//   visited[src] = true;
+//   for (Edge edge : graph[src]) {
+//     if (edge.nbr!=parent) {
+//       boolean nbrHasPath = dfs(edge.nbr, src, graph, visited);
+//       if (nbrHasPath)
+//         return true;
+//     }
+//   }
+
+//   return false;
+// }
+
+
 
   // bipartite
   // int[] visited = new int[vtces];  // array for levels

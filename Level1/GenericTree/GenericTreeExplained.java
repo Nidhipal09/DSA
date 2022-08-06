@@ -61,7 +61,7 @@ public class GenericTreeExplained {
 
 
 
-    static int size = 0, height = -1, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+    static int size = 0, height = 0, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
 
     public static void multisolver(Node node, int depth) {
 

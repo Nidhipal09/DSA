@@ -47,19 +47,19 @@ public class Level2 {
 
     }
 
-    // public static class Pair{
-    // int idx=0;
-    // int nj=0;
-    // int mj=0;
-    // String asf="";
+    public static class Pair{
+    int idx=0;
+    int nj=0;
+    int mj=0;
+    String asf="";
 
-    // Pair(int idx, int nj, int mj, String asf){
-    // this.idx=idx;
-    // this.nj=nj; //no of jumps
-    // this.mj=mj; //min jumps
-    // this.asf=asf;
-    // }
-    // }
+    Pair(int idx, int nj, int mj, String asf){
+    this.idx=idx;
+    this.nj=nj; //no of jumps
+    this.mj=mj; //min jumps
+    this.asf=asf;
+    }
+    }
 
     public static void minJumps1(int arr[]) {
         int N = arr.length;
@@ -148,6 +148,18 @@ public class Level2 {
         return max;
     }
 
+    public static class Pair {
+        String psf;
+        int i;
+        int j;
+
+        public Pair(String psf, int i, int j) {
+            this.psf = psf;
+            this.i = i;
+            this.j = j;
+        }
+    }
+
     public static void mazeMinCostAndPaths(int[][] maze) {
         int m = maze.length;
         int n = maze[0].length;
@@ -203,12 +215,12 @@ public class Level2 {
     }
 
     public static class Pair {
-        String psf;
+        String asf;
         int i;
         int j;
 
-        public Pair(String psf, int i, int j) {
-            this.psf = psf;
+        public Pair(String asf, int i, int j) {
+            this.asf = asf;
             this.i = i;
             this.j = j;
         }
@@ -302,17 +314,7 @@ public class Level2 {
      }
 
 
-    public static class Pair {
-        String asf;
-        int i;
-        int j;
-
-        public Pair(String asf, int i, int j) {
-            this.asf = asf;
-            this.i = i;
-            this.j = j;
-        }
-    }
+    
 
     public static void maxGold(int[][] maze,int m,int n){
           
@@ -677,6 +679,10 @@ public class Level2 {
         return ans[n];
      }
 
+     //ways of triangulation-  n -> Cn-2
+     
+     // matrix chain multiplication - remaining
+     
      
 
 

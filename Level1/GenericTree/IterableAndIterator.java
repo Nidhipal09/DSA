@@ -107,14 +107,14 @@ public class IterableAndIterator {
 
         @Override
         public Integer next() {
-            Integer fr=nval;  // for return purpose
+            Integer curr=nval;  // current value
 
 
             nval=null;  // moves nval forward or set it to null if not possible
             while (st.size() > 0) {
                 Pair p = st.peek();
                 if (p.state == -1) {
-                    nval=p.node.data;
+                    nval=p.node.data;  // set nval to next
                     p.state = 0;
                     break;
                 } else if (p.state == p.node.children.size()) {
@@ -126,7 +126,7 @@ public class IterableAndIterator {
                 }
             }
 
-            return fr;
+            return curr;
         }
     }
 

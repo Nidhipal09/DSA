@@ -219,6 +219,7 @@ public class GenericTree {
     }
 
     public static void removeLeaves(Node node) {
+        
         for (int i = node.children.size() - 1; i >= 0; i--) {
             Node child = node.children.get(i);
             if (child.children.size() == 0)
@@ -359,6 +360,25 @@ public class GenericTree {
     public static boolean IsSymmetric(Node node) {
         return areMirror(node, node);
     }
+
+//     public static boolean IsSymmetric(Node node) {
+      
+//         int s = node.children.size() - 1;
+        
+//         for (int i = 0; i < s; i++) {
+            
+//             int lcs = node.children.get(i).children.size();
+//             int rcs = node.children.get(s - i).children.size();
+              
+//             if(lcs!=rcs) return false;
+//         }
+        
+//         for (Node child : node.children) {
+//             if(!IsSymmetric(child)) return false;
+//         }
+        
+//         return true;
+//   }
 
     static Node predecessor;
     static Node successor;
