@@ -525,6 +525,9 @@ public class DynamicProgramminAndGreedy{
         
         return ans[k][n];
     }
+    
+    //https://leetcode.com/problems/partition-to-k-equal-sum-subsets/submissions/
+    //https://leetcode.com/problems/paint-house-iii/discuss/2252939/java
 
 
 }
