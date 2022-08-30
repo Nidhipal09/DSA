@@ -528,6 +528,6 @@ public class DynamicProgramminAndGreedy{
     
     //https://leetcode.com/problems/partition-to-k-equal-sum-subsets/submissions/
     //https://leetcode.com/problems/paint-house-iii/discuss/2252939/java
-
+    //https://medium.com/@richard.john.grayson/leetcode-1473-paint-house-iii-ec5d3ef5883b
 
 }
