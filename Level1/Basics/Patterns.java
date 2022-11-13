@@ -412,20 +412,32 @@ public class Patterns {
 
     public static void pattern20(int n) {
 
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= n; j++) {
+
+//                 if (i <= n / 2) {
+//                     if (j == 1 || j == n)
+//                         System.out.print("*\t");
+//                     else
+//                         System.out.print("\t");
+//                 } else {
+//                     if (i == j || i + j == n + 1 || j == 1 || j == n)
+//                         System.out.print("*\t");
+//                     else
+//                         System.out.print("\t");
+//                 }
+//             }
+//             System.out.println();
+//         }
+        
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
 
-                if (i <= n / 2) {
-                    if (j == 1 || j == n)
+                if ((j == 1 || j == n) || (i > n / 2 && (i == j || i + j == n + 1))) 
                         System.out.print("*\t");
-                    else
+                else
                         System.out.print("\t");
-                } else {
-                    if (i == j || i + j == n + 1 || j == 1 || j == n)
-                        System.out.print("*\t");
-                    else
-                        System.out.print("\t");
-                }
+                
             }
             System.out.println();
         }
