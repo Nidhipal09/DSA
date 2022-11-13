@@ -15,8 +15,7 @@ public class Graphs {
     }
   }
   
-//       int vtces = Integer.parseInt(br.readLine());
-//       ArrayList<Edge>[] graph = new ArrayList[vtces];
+//       ArrayList<Edge>[] graph = new ArrayList[vtces];  // what is graph here- an array of arrayList of edges
 //       for(int i = 0; i < vtces; i++){
 //          graph[i] = new ArrayList<>();
 //       }
