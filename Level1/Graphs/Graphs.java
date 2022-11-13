@@ -15,7 +15,7 @@ public class Graphs {
     }
   }
   
-//       ArrayList<Edge>[] graph = new ArrayList[vtces];  // what is graph here- an array of arrayList of edges
+//       ArrayList<Edge>[] graph = new ArrayList[vtces];  // what is graph here- an array of arrayLists of edges. also called adjacency matrix
 //       for(int i = 0; i < vtces; i++){
 //          graph[i] = new ArrayList<>();
 //       }
