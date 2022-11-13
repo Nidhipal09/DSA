@@ -224,13 +224,13 @@ public class Graphs {
       boolean flag = true;
       for (Edge edge : graph[v]) {
         if (edge.nbr == src) {
-          System.out.println(path + "*"); //hpath
+          System.out.println(path + "*"); //hcycle
           flag = false;
         }
       }
 
       if (flag)
-        System.out.println(path + "."); //hcycle
+        System.out.println(path + "."); //hpath
 
       return;
     }
