@@ -154,6 +154,29 @@ public class Graphs {
     }
 
   }
+  
+  //is graph connected
+//   static void dfs(int v, boolean[] visited, ArrayList<Edge>[] graph){
+          
+//     visited[v] = true;
+//     numc++;
+
+//         for (Edge edge : graph[v]) {
+//           if (!visited[edge.nbr]) {
+//             dfs(edge.nbr, visited, graph);
+//           }
+//         }
+//     }
+   
+//    static int numc=0;
+  
+//    dfs(0, new boolean[vtces], graph);
+//    System.out.println(numc==vtces);
+  
+  
+  
+  
+  
 
   // boolean[][] visited = new boolean[m][n];
   // int count=0;
