@@ -453,9 +453,9 @@ public class Stacks {
             int b = st.pop();
 
             if (arr[a][b] == 1)
-                st.push(b); // elimination of non-celebrity a
+                st.push(b); // elimination of non-celebrity a. since a knows b, so a can't be a celebrity. 
             else
-                st.push(a); // elimination of non-celebrity b
+                st.push(a); // elimination of non-celebrity b. since a doesn't know b, b can't be a celebrity. 
         }
 
         int x = st.pop(); // potential celebrity
