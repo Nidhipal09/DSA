@@ -263,13 +263,13 @@ public class Graphs {
 
   // while(q.size()>0){
   //   Pair rem = q.remove(); 
-  //   if (visited[rem.v]) continue;
+  //   if (visited[rem.v]) continue;    // if already visited then we are reaching here late with may be longer path. hence, discarded.
 
   //   visited[rem.v] = true;
 
   //   System.out.println(rem.v + "@" + rem.psf); 
   //   for (Edge edge : graph[rem.v]) {
-  //     if (!visited[edge.nbr]) {
+  //     if (!visited[edge.nbr]) {       // if already visited then we are reaching here late with may be longer path. hence, discarded.
   //       q.add(new Pair(edge.nbr, rem.psf + edge.nbr));
   //     }
   //   }
